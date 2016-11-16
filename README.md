@@ -1,5 +1,6 @@
 # bsq
-A maximum square problem for finding largest area of a two dimensional map free of obstacle characters
+A maximum square problem for finding largest area of a two dimensional map free of obstacle characters.
+See bsq_subject.pdf for project information.
 
 ## Implementation
 
@@ -13,6 +14,4 @@ Implemented with recursive backtracking and dynamic programing in C. Allowed fun
 ## Acknowledgments
 
 * This project was completed at School 42, Fremont
-
-
-http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+Algorithm inspired by http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/

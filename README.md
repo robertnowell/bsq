@@ -14,4 +14,4 @@ Implemented with recursive backtracking and dynamic programing in C. Allowed fun
 ## Acknowledgments
 
 * This project was completed at School 42, Fremont
-Algorithm inspired by http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+* Algorithm inspired by http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/

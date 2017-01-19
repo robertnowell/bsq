@@ -6,6 +6,10 @@ See bsq_subject.pdf for project information.
 
 Implemented with recursive backtracking and dynamic programing in C. Allowed functions include open, close, read, write, malloc, free.
 
+## Use
+
+![alt text](https://github.com/robertnowell/bsq/blob/master/Screen%20Shot%202017-01-19%20at%2012.44.21%20PM.png "Usage")  
+
 ## Authors
 
 * **Robert Nowell** (https://github.com/robertnowell)

@@ -8,12 +8,14 @@ Implemented with recursive backtracking and dynamic programing in C. Allowed fun
 
 ## Use
 
-![alt text](https://github.com/robertnowell/bsq/blob/master/Screen%20Shot%202017-01-19%20at%2012.44.21%20PM.png "Usage")  
-
 To use the program, first clone the repository. In the directory into which the repo was cloned, run the executable bsq with a map from the test_maps directory as in the following command:
 ```
 ./bsq test_maps/500_500.txt
 ```
+
+![alt text](https://github.com/robertnowell/bsq/blob/master/Screen%20Shot%202017-01-19%20at%2012.44.21%20PM.png "Usage")  
+
+
 ## Authors
 
 * **Robert Nowell** (https://github.com/robertnowell)

@@ -24,3 +24,27 @@ t_list		*ft_create_elem(char *data)
 	}
 	return (tmp);
 }
+
+void		ft_list_push_front(t_list **begin_list, char *data)
+{
+	t_list	*tmp;
+
+	tmp = ft_create_elem(data);
+	tmp->next = *begin_list;
+	*begin_list = tmp;
+}
+
+void		ft_list_push_back(t_list **begin_list, char *data)
+{
+	t_list	*tmp;
+
+	tmp = *begin_list;
+	if (!tmp)
+	{
+		*begin_list = ft_create_elem(data);
+		return ;
+	}
+	while (tmp->next)
+		tmp = tmp->next;
+	tmp->next = ft_create_elem(data);
+}

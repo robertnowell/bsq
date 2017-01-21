@@ -14,14 +14,9 @@ NAME =		bsq
 
 CFLAGS =	-Wall -Werror -Wextra
 
-SRCS =		main.c					\
-			error.c					\
-			ft_create_elem.c		\
-			print_stuff.c			\
-			ft_list_push_back.c		\
-			ft_list_push_front.c	\
-			support.c				\
-			more_support.c
+SRCS =	src/*.c	
+
+INCLUDES = ./bsq.h
 
 OBJS =		$(SRCS:.c=.o)
 
@@ -30,7 +25,7 @@ CC =		gcc
 all: $(NAME)
 
 $(NAME):
-	@$(CC) $(CFLAGS) -o $(NAME) $(SRCS)
+	@$(CC) $(CFLAGS) -I $(INCLUDES) -o $(NAME) $(SRCS)
 
 clean:
 	@/bin/rm -f $(OBJS)

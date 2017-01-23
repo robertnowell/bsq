@@ -6,7 +6,7 @@
 #    By: dtse <marvin@42.fr>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/08/03 14:15:06 by dtse              #+#    #+#              #
-#    Updated: 2016/08/03 14:15:10 by dtse             ###   ########.fr        #
+#    Updated: 2017/01/23 09:42:28 by rnowell          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,13 +16,13 @@ CFLAGS =	-Wall -Werror -Wextra
 
 SRCS =	src/*.c	
 
-INCLUDES = ./bsq.h
+INCLUDES = ./misc/bsq.h
 
 OBJS =		$(SRCS:.c=.o)
 
 CC =		gcc
 
-all: $(NAME)
+all: $(NAME); @echo "successful make"
 
 $(NAME):
 	@$(CC) $(CFLAGS) -I $(INCLUDES) -o $(NAME) $(SRCS)

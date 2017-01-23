@@ -12,7 +12,7 @@ To use the program, first clone the repository. In the directory into which the 
 ```
 ./bsq test_maps/500_500.txt
 ```
-![alt text](https://github.com/robertnowell/bsq/blob/master/Screen%20Shot%202017-01-19%20at%2012.44.21%20PM.png "Usage")  
+![alt text](https://github.com/robertnowell/bsq/blob/master/misc/Screen%20Shot%202017-01-19%20at%2012.44.21%20PM.png "Usage")  
 
 ### Creating New Maps
   
